@@ -3,7 +3,7 @@ import time
 #simple version of rock, paper, scissors
 choices = ["rock", "paper", "scissors"] #choices in the game
 userchoice = raw_input("Do you choose paper, scissors, or rock?  ") #user chooses
-compchoice = (random.choice(choices)) #computer chooses random choice
+compchoice = (random.choice(choices)) #computer chooses randomly from choices
 
 time.sleep(1)
 
